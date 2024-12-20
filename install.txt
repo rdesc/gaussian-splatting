@@ -1,0 +1,6 @@
+1. Install cuda sdk 11.8 (only the toolkit)
+2. Clone git repo recursive
+3. Setup conda env
+4. Install colmap + the special ninja command 
+    - cmake .. -GNinja -DCMAKE_CUDA_COMPILER=/usr/local/cuda-11.8/bin/nvcc -DCMAKE_CUDA_ARCHITECTURES=75
+5. install tensorboard 
